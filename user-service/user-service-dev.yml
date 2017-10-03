@@ -1,5 +1,5 @@
 server:
-  port: 8900
+  port: 0 #8900
 spring:
   jpa:
     hibernate:
@@ -8,3 +8,9 @@ spring:
     url: jdbc:mysql://localhost:3306/devoflix?autoReconnect=true&useSSL=false
     username: dev
     password: dev
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
