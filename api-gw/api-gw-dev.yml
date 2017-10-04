@@ -11,8 +11,8 @@ zuul:
     user:
       path: /user/**
       serviceId: user-service
-  ribbon:		
-    eager-load:		
+  ribbon:
+    eager-load:
       enabled: true
 ribbon:
   eureka:
