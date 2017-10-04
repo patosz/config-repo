@@ -1,6 +1,6 @@
 message: test-dev
 zuul:
-  prefix: /api
+  #prefix: /api
   routes:
     service:
       path: /services/** #every request from localhost:8080/services/ is forwarded to the following url
