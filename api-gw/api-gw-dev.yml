@@ -1,9 +1,13 @@
 message: test-dev
 zuul:
+  prefix: /api
   routes:
-    book:
+    service:
       path: /services/** #every request from localhost:8080/services/ is forwarded to the following url
       url: http://localhost:8761
+    login:
+      path: /login
+      serviceId: auth-service
 ribbon:
   eureka:
     enabled: false
