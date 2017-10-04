@@ -13,4 +13,7 @@ zuul:
       serviceId: user-service
 ribbon:
   eureka:
-    enabled: false
+    enabled: true
+eureka:
+  client:
+    registerWithEureka: false
