@@ -9,7 +9,7 @@ zuul:
       path: /login
       serviceId: auth-service
     user:
-      path: /user
+      path: /user/*
       serviceId: user-service
   #ribbon:
     #eager-load:
