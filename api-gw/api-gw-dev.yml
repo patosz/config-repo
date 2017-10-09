@@ -11,6 +11,9 @@ zuul:
     user:
       path: /user/**
       serviceId: user-service
+    movie:
+      path: /movie/**
+      serviceId: movie-service
   #ribbon:
     #eager-load:
       #enabled: true
