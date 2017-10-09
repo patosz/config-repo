@@ -14,6 +14,9 @@ zuul:
     movie:
       path: /movie/**
       serviceId: movie-service
+    rating:
+      path: /rating/**
+      serviceId: rating-service
   #ribbon:
     #eager-load:
       #enabled: true
