@@ -22,7 +22,7 @@ zuul:
       #enabled: true
 ribbon:
   eureka:
-    enabled: true
+    enabled: false
 eureka:
   client:
     registerWithEureka: false
